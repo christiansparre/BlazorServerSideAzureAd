@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerSideAzureAd.Server", "BlazorServerSideAzureAd.Server\BlazorServerSideAzureAd.Server.csproj", "{4DFBA273-59CA-429D-93F3-0F4C60208829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerSideAzureAd.App", "BlazorServerSideAzureAd.App\BlazorServerSideAzureAd.App.csproj", "{F4A403B9-C85D-4B50-915D-5CB9B0FA3E98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DFBA273-59CA-429D-93F3-0F4C60208829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFBA273-59CA-429D-93F3-0F4C60208829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFBA273-59CA-429D-93F3-0F4C60208829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFBA273-59CA-429D-93F3-0F4C60208829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A403B9-C85D-4B50-915D-5CB9B0FA3E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A403B9-C85D-4B50-915D-5CB9B0FA3E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A403B9-C85D-4B50-915D-5CB9B0FA3E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A403B9-C85D-4B50-915D-5CB9B0FA3E98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD0CCF1B-E385-4487-95AA-C24CC9F4F9EE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+﻿@page "/"
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor ContextAccessor
+<h1>Hello, world!</h1>
+
+Welcome to your new app <strong>@Name</strong>!
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@functions
+{
+public string Name { get; set; }
+
+protected override void OnInit()
+{
+    Name = ContextAccessor.HttpContext.User.Identity.Name;
+
+    var givenName = ContextAccessor.HttpContext.User.FindFirst(ClaimTypes.GivenName);
+    if (givenName != null)
+    {
+        Name = givenName.Value;
+    }
+}
+
+
+}
